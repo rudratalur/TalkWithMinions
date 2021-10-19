@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Fredoka+One&family=Pacifico&display=swap');
+
+
+:root {
+    --primary-color : #f2c94c;
+}
+body {
+    font-family: 'Festive', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+#hero-img {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+  
+}
+
+.nav-bar {
+    background-color: var(--primary-color);
+    text-align: center;
+    height: 10vh;
+}
+.nav-brand {
+    color: black;
+    margin: auto;
+    font-size: larger;
+}
+#btn-Translate {
+    font-family: 'Pacifico', cursive;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: block;
+    display: block;
+    margin: auto;
+}
+#btn-Translate:hover {
+    background-color: rgb(245, 245, 137);
+}
+
+#output-txt {
+    padding-left: 2rem;
+}
+
+.footer-header{
+    text-align: center;
+    font-size: larger;
+    margin: auto;
+}
+.footer {
+    background-color: var(--primary-color);
+    margin: auto;
+}
+
+.footer .para {
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+}

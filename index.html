@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana speak</title>
+    <style>
+        textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-brand">Talk Bananaa!</div>
+    </nav>
+    <img id="hero-img" src="./images/Hero.png" alt="minions-image">
+    <textarea id="text-input" placeholder="Enter some text in English here, it will be translated to Banana Language."></textarea>
+    <br>
+    <button id="btn-Translate">Translate to banana</button>
+    <div id="output-txt" style="font-size: larger;">output will be shown below👇</div>
+    <div id="output"></div>
+
+
+    <footer class="footer">
+        <div class="footer-header"><strong>About</strong></div>
+        <p class="para">Are u a fan of minions? Did you know that gibberish they say is actual language. Use the translater to convert ypur text from english to Minion speak or Banana Language.</p>
+    </footer>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
